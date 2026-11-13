@@ -1,0 +1,9 @@
+<library path="custom_planner_plugin">
+  <class name="custom_global_planner/CustomGlobalPlanner" 
+         type="custom_planner::CustomGlobalPlanner" 
+         base_class_type="nav2_core::GlobalPlanner">
+    <description>
+      A custom straight-line global planner for Nav2.
+    </description>
+  </class>
+</library>
